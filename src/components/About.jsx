@@ -27,23 +27,34 @@ export default function About() {
               Who are we?
             </h1>
             <p className="text-xl m-4 text-white text-justify leading-relaxed drop-shadow-md">
-              <strong>PerfectBid Solutions</strong> delivers precise and
-              targeted cost estimating and quantity takeoff services. With a
-              growing list of satisfied clients, we are proud to offer
-              industry-leading expertise in cost estimation and project
-              takeoffs.
+              <strong>Exact Bid Solution</strong>is a trusted estimation services provider,
+              delivering accurate and reliable cost estimates for construction projects of 
+              all scales. Our expert team ensures precision, efficiency, and cost-effectiveness 
+              to help contractors, developers, and project managers make informed decisions. 
+              We specialize in detailed quantity takeoffs, material and labor cost analysis, 
+              and bid preparation to help our clients win more projects while staying within budget.  
             </p>
 
             <p className="text-xl m-4 text-white text-justify leading-relaxed drop-shadow-md">
               Our team of skilled cost estimators and engineers brings years of
               experience, combining functional engineering insights with
-              advanced cost estimation techniques. At PerfectBid Solutions, we
+              advanced cost estimation techniques. At Exact Estimate Solutions, we
               provide both public and private sector clients across the U.S. and
               Canada with reliable, data-driven advice for their construction
               projects.
             </p>
 
-            <p className="text-xl m-4 text-white text-justify leading-relaxed drop-shadow-md">
+            
+          </div>
+        </div>
+
+        <div className="flex flex-col lg:flex-row w-full">
+          <div className="lg:w-[45%] p-10 text-center  gap-4 lg:text-start bg-bright text-black flex flex-col justify-start">
+            <h1 className="text-4xl font-bold">Why Choose Us</h1>
+            <p className="text-xl">
+              We proceed in a simplified manner in order to deliver the client
+              what he / she desires.
+              <p className="text-xl m-4 text-white text-justify leading-relaxed drop-shadow-md">
               Our mission is to <strong>empower developers</strong>,
               contractors, and architects by helping them streamline their cost
               estimation process, driving more sales and fostering long-term
@@ -51,15 +62,6 @@ export default function About() {
               ensure our clients can make informed decisions, leading to project
               success and sustained growth.
             </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col lg:flex-row w-full">
-          <div className="lg:w-[45%] p-10 text-center  gap-4 lg:text-start bg-bright text-black flex flex-col justify-start">
-            <h1 className="text-4xl font-bold">How we proceed</h1>
-            <p className="text-xl">
-              We proceed in a simplified manner in order to deliver the client
-              what he / she desires.
             </p>
             {/* <p className="text-2xl font-bold text-heading">35$ <span className="text-xl text-black">/hour</span></p>
         <button className="text-2xl bg-slate p-6 lg:w-2/4 text-bright font-bold rounded-full hover:transition-color ease-in-out duration-500 hover:text-bright hover:bg-black">Read more</button> */}
@@ -72,37 +74,29 @@ export default function About() {
             <div className="flex flex-col items-start p-8 bg-headerBlue text-bright lg:bg-heading lg:w-[54%] space-y-6">
               <div className="w-full text-justify p-4 border-l-4 border-yellow-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold ">
-                  01. Weekend Service at no extra charge – stress-free project
-                  deadlines.
+                  01. Fast Turnaround: We deliver detailed estimates quickly to help you meet bidding deadlines.
                 </span>
               </div>
 
               <div className="w-full p-4 border-l-4 text-justify border-blue-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold text-justify">
-                  02. Dedicated resource for personalized attention and fast
-                  results.
+                  02. Accuracy & Reliability: Our estimates are precise and backed by industry expertise.
                 </span>
               </div>
 
               <div className="w-full p-4 border-l-4 text-justify border-green-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold text-justify">
-                  03. 50% off your first project – seamless and accurate
-                  estimation.
+                  03. Cost Savings: Avoid overbudgeting or underbidding with our well-calculated estimates.
                 </span>
               </div>
 
               <div className="w-full p-4 border-l-4 text-justify border-purple-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold text-justify">
-                  04. Your peace of mind and project success are our top
-                  priorities.
+                  04. Industry Expertise: We have extensive experience in estimating projects of all sizes and complexities.
                 </span>
               </div>
 
-              <div className="w-full p-4 border-l-4 text-justify border-red-400 bg-white/10 rounded-md">
-                <span className="text-lg font-semibold text-justify">
-                  05. Reach out anytime – we&apos;re here to help you succeed!
-                </span>
-              </div>
+             
             </div>
           </div>
         </div>
