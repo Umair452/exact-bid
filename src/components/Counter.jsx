@@ -16,18 +16,18 @@ const StatsCounter = () => {
     >
       <div className="text-center">
         <h2 className="text-4xl font-bold text-blue-500">
-          Projects {inView ? <CountUp start={0} end={100} duration={3} /> : 0}
+          Projects {inView ? <CountUp start={0} end={47} duration={3} /> : 0}
         </h2>
       </div>
       <div className="text-center">
         <h2 className="text-4xl font-bold text-green-500">
-          Clients {inView ? <CountUp start={0} end={50} duration={3} /> : 0}
+          Clients {inView ? <CountUp start={0} end={13} duration={3} /> : 0}
         </h2>
       </div>
       <div className="text-center">
         <h2 className="text-4xl font-bold text-purple-500">
           Success Rate:{" "}
-          {inView ? <CountUp start={0} end={99} duration={3} /> : 0}%
+          {inView ? <CountUp start={0} end={98} duration={3} /> : 0}%
         </h2>
       </div>
     </div>

@@ -33,9 +33,10 @@ export default function Footer() {
               alt="logo"
             />
           </div>
-          <div className="max-w-52 text-justify">
+          <div className="capitalize max-w-52 text-justify">
             <p>
-              Calculating perfect bids and satisfying our clients since 2022
+            Exact Bid Solution is a trusted estimation services provider,delivering
+             accurate and reliable cost estimates for construction projects of all scales. 
             </p>
           </div>
         </div>
@@ -107,7 +108,7 @@ export default function Footer() {
               <div>
                 <p className="w-[244px]  cursor-pointer">
                   {" "}
-                  975 Liberty Ave, Union, NJ 07083, USA
+                  Gulberg Greens, C-Block, Islamabad.
                 </p>
               </div>
             </div>
@@ -120,7 +121,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               <div className="text-heading font-bold">Email Us:</div>
               <div className=" cursor-pointer">
-                <p>support@perfectbidsolutions.com</p>
+                <p>talha@exactbidestimates.com</p>
               </div>
             </div>
           </div>

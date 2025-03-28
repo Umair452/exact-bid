@@ -1,6 +1,5 @@
 import About from "../components/About";
 import Hero from "../sections/Hero";
-import Review from "../components/Reviews";
 import StatsCounter from "../components/Counter";
 
 export default function HomeScreen() {
@@ -9,7 +8,7 @@ export default function HomeScreen() {
       <Hero />
       <About />
       <StatsCounter />
-      <Review />
+      
     </>
   );
 }

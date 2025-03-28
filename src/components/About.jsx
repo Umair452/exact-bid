@@ -49,19 +49,16 @@ export default function About() {
         </div>
 
         <div className="flex flex-col lg:flex-row w-full">
-          <div className="lg:w-[45%] p-10 text-center  gap-4 lg:text-start bg-bright text-black flex flex-col justify-start">
-            <h1 className="text-4xl font-bold">Why Choose Us</h1>
-            <p className="text-xl">
-              We proceed in a simplified manner in order to deliver the client
-              what he / she desires.
-              <p className="text-xl m-4 text-white text-justify leading-relaxed drop-shadow-md">
+          <div className="h-fit lg:w-[45%] p-10 text-center  gap-4 lg:text-start bg-bright text-black flex flex-col justify-start">
+            <h1 className="text-4xl font-bold text-center">Why Choose Us</h1>
+           
+              <p className="text-xl m-4  text-justify leading-relaxed drop-shadow-md">
               Our mission is to <strong>empower developers</strong>,
               contractors, and architects by helping them streamline their cost
               estimation process, driving more sales and fostering long-term
               client relationships. With a primary focus on construction, we
               ensure our clients can make informed decisions, leading to project
               success and sustained growth.
-            </p>
             </p>
             {/* <p className="text-2xl font-bold text-heading">35$ <span className="text-xl text-black">/hour</span></p>
         <button className="text-2xl bg-slate p-6 lg:w-2/4 text-bright font-bold rounded-full hover:transition-color ease-in-out duration-500 hover:text-bright hover:bg-black">Read more</button> */}
@@ -74,25 +71,25 @@ export default function About() {
             <div className="flex flex-col items-start p-8 bg-headerBlue text-bright lg:bg-heading lg:w-[54%] space-y-6">
               <div className="w-full text-justify p-4 border-l-4 border-yellow-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold ">
-                  01. Fast Turnaround: We deliver detailed estimates quickly to help you meet bidding deadlines.
+                  01. Fast Turnaround.
                 </span>
               </div>
 
               <div className="w-full p-4 border-l-4 text-justify border-blue-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold text-justify">
-                  02. Accuracy & Reliability: Our estimates are precise and backed by industry expertise.
+                  02. Accuracy & Reliability.
                 </span>
               </div>
 
               <div className="w-full p-4 border-l-4 text-justify border-green-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold text-justify">
-                  03. Cost Savings: Avoid overbudgeting or underbidding with our well-calculated estimates.
+                  03. Cost Saving Estimates.
                 </span>
               </div>
 
               <div className="w-full p-4 border-l-4 text-justify border-purple-400 bg-white/10 rounded-md">
                 <span className="text-lg font-semibold text-justify">
-                  04. Industry Expertise: We have extensive experience in estimating projects of all sizes and complexities.
+                  04. Industry Expertise.
                 </span>
               </div>
 
