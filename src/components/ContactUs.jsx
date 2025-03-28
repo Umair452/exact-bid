@@ -31,9 +31,9 @@ const ContactUs = () => {
     };
 
     // Replace these with your actual EmailJS keys
-    const serviceID = "service_qfi9swg";
-    const templateID = "template_9w4pxw5";
-    const publicKey = "cuMllMIw7yzga_JYn";
+    const serviceID = "service_861u7em";
+    const templateID = "template_vkm9obu";
+    const publicKey = "Zb1R0wiwE1HZ_pqxB";
 
     emailjs
       .send(serviceID, templateID, templateParams, publicKey)
