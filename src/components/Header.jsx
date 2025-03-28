@@ -60,8 +60,8 @@ export default function Header() {
           About
         </a>
 
-        <Link
-          to="/services"
+        <a
+          href="#services"
           className="hover:scale-110  flex items-end hover:text-heading hover:transition ease-in-out duration-500"
           id="dropdownHoverButton"
           data-dropdown-toggle="dropdownHoverThree"
@@ -69,14 +69,7 @@ export default function Header() {
           type="button"
         >
           Services
-        </Link>
-
-        <Link
-          to="/portfolio"
-          className="hover:scale-110 flex items-end hover:text-heading hover:transition ease-in-out duration-500"
-        >
-          Portfolio
-        </Link>
+        </a>
 
         <div className="hover:scale-110 hover:text-heading hover:transition ease-in-out duration-500">
           <Link to="/contact-us">Contact Us</Link>

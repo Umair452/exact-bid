@@ -35,8 +35,9 @@ export default function Footer() {
           </div>
           <div className="capitalize max-w-52 text-justify">
             <p>
-            Exact Bid Solution is a trusted estimation services provider,delivering
-             accurate and reliable cost estimates for construction projects of all scales. 
+              Exact Bid Solution is a trusted estimation services
+              provider,delivering accurate and reliable cost estimates for
+              construction projects of all scales.
             </p>
           </div>
         </div>
@@ -57,12 +58,12 @@ export default function Footer() {
             </div>
             <div className="flex gap-1">
               <img src={arrows} alt="" />
-              <Link
-                to="services"
+              <a
+                href="#services"
                 className="hover:scale-110 hover:transition ease-in-out duration-500 "
               >
                 Services
-              </Link>
+              </a>
             </div>
             <div className="flex gap-1">
               <img src={arrows} alt="" />
@@ -72,15 +73,6 @@ export default function Footer() {
               >
                 About Us
               </a>
-            </div>
-            <div className="flex gap-1">
-              <img src={arrows} alt="" />
-              <Link
-                to="/portfolio"
-                className="hover:scale-110 hover:transition ease-in-out duration-500 "
-              >
-                Portfolio
-              </Link>
             </div>
 
             <div className="flex gap-1">
