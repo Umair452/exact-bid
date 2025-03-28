@@ -31,9 +31,9 @@ const ContactUs = () => {
     };
 
     // Replace these with your actual EmailJS keys
-    const serviceID = "service_861u7em";
-    const templateID = "template_vkm9obu";
-    const publicKey = "Zb1R0wiwE1HZ_pqxB";
+    const serviceID = import.meta.env.VITE_SERVICE_ID;
+    const templateID = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
     emailjs
       .send(serviceID, templateID, templateParams, publicKey)
