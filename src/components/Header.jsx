@@ -230,7 +230,7 @@ export default function Header() {
                  
            </ul> */}
 
-          <button
+          {/* <button
             type="button"
             className="text-2xl focus:bg-heading focus:text-white bg-dark-bg flex items-center w-full p-2   transition duration-75 rounded-lg group "
             aria-controls="dropdown-exampleFour"
@@ -241,11 +241,11 @@ export default function Header() {
               className="font-bold  ms-3 text-left rtl:text-right whitespace-nowrap"
             >
               Portfolio
-            </Link>
+            </Link> */}
             {/* <svg className="ml-2 w-3 h-3 -rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
                  </svg> */}
-          </button>
+          {/* </button> */}
           {/* <ul id="dropdown-exampleFour" className="hidden py-2 space-y-2 text-xl">
                  <li>
                     <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
