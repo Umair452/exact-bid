@@ -38,7 +38,7 @@ export default function Sample() {
   return (
     <section id="services" className="pt-20 bg-slate-100 flex flex-col gap-8">
       <h1 className="text-center text-headerBlue text-4xl font-bold mb-6">
-        These are out Services
+        These Are Our Services
       </h1>
 
       <div className="flex flex-wrap justify-center gap-8 px-4">
