@@ -142,21 +142,9 @@ export default function Header() {
             >
               Home
             </Link>
-            {/* <svg className="ml-2 -rotate-90 w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
-                 </svg> */}
+            
           </button>
-          {/* <ul id="dropdown-example" className="hidden py-2 space-y-2 text-xl">
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Studio</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       DJ</a>
-                 </li>
-                 
-           </ul> */}
+         
 
           <button
             type="button"
@@ -170,29 +158,9 @@ export default function Header() {
             >
               About Us
             </a>
-            {/* <svg className="ml-2 w-3 h-3 -rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
-                 </svg> */}
+            
           </button>
-          {/* <ul id="dropdown-exampleTwo" className="hidden py-2 space-y-2 text-xl">
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Testimonials</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Team</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       FAQ</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Gallery</a>
-                 </li>
-                 
-           </ul> */}
+         
 
           <button
             type="button"
@@ -206,58 +174,12 @@ export default function Header() {
             >
               Services
             </Link>
-            {/* <svg className="ml-2 w-3 h-3 -rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
-                 </svg> */}
+           
           </button>
-          {/* <ul id="dropdown-exampleThree" className="hidden text-xl py-2 space-y-2">
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Shop</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Cart</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Checkout</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       My account</a>
-                 </li>
-                 
-           </ul> */}
+          
 
-          {/* <button
-            type="button"
-            className="text-2xl focus:bg-heading focus:text-white bg-dark-bg flex items-center w-full p-2   transition duration-75 rounded-lg group "
-            aria-controls="dropdown-exampleFour"
-            data-collapse-toggle="dropdown-exampleFour"
-          >
-            <Link
-              to="/portfolio"
-              className="font-bold  ms-3 text-left rtl:text-right whitespace-nowrap"
-            >
-              Portfolio
-            </Link> */}
-            {/* <svg className="ml-2 w-3 h-3 -rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
-                 </svg> */}
-          {/* </button> */}
-          {/* <ul id="dropdown-exampleFour" className="hidden py-2 space-y-2 text-xl">
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Blog with sidebar</a>
-                 </li>
-                 <li>
-                    <a href="#" className="flex items-center w-full p-2 text-white  transition ease-in-out duration-800 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                       Blog without sidebar</a>
-                 </li>
-                
-                 
-           </ul> */}
+          
+         
 
           <button
             type="button"
@@ -272,21 +194,7 @@ export default function Header() {
           </button>
         </div>
 
-        {/* <div className="flex flex-col gap-5 my-5">
-    <div className="flex flex-row-reverse justify-between w-full ">
-
-        <img src="/profile.svg" alt="profile logo" />
-        <img src="/shopping.svg" alt="cart" />
         
-    </div>
-
-    
-        <button className="flex rounded-full justify-between items-center w-full bg-white">
-            <input className="rounded-full  border-none focus:ring-0 text-dark-bg" placeholder="Search..." type="text" />
-            <img className="p-4 rounded-full bg-heading" src="/search.svg" alt="search" />
-        </button>
-        </div>
-  */}
       </div>
     </div>
   );
