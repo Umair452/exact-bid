@@ -294,7 +294,7 @@ export default function Header() {
       {drawerOpen && (
         <div
           id="drawer-right-example"
-          className="fixed top-0 right-0 z-40 h-screen p-7 overflow-y-auto transition-transform bg-black w-full sm:w-3/5  text-white"
+          className="fixed top-0 right-0 z-40 h-screen p-7 overflow-y-auto transition-transform bg-black w- sm:w-3/5  text-white"
           aria-labelledby="drawer-right-label"
         >
           <div className="flex flex-row justify-between">
@@ -364,12 +364,12 @@ export default function Header() {
               aria-controls="dropdown-exampleThree"
               data-collapse-toggle="dropdown-exampleThree"
             >
-              <Link
-                to="/services"
+              <a
+                href="#services"
                 className="font-bold  ms-3 text-left rtl:text-right whitespace-nowrap"
               >
                 Services
-              </Link>
+              </a>
             </button>
 
             <button
